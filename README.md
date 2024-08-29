@@ -5,9 +5,7 @@ This repository contains the implementation files for the Heart Lander project, 
 ## Setup Instructions
 1. Hardware Components
 Motors and Servos: The system is driven by a set of motors and servos to control the movement of the robotic arms and suction bases.
-
 New Motor Holder: The design includes a newly developed motor holder, which is located in the design_files directory.
-
 Suction Base: The robot now utilizes a redesigned suction base that provides improved adhesion to the heart. The new suction base design can be found in the design_files folder.
 2. Software Components
 Arduino Setup: The arduino_files folder contains the necessary Arduino files for setting up and controlling the motors. This includes base functions for motor and servo configuration.
