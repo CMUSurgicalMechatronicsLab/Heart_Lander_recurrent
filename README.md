@@ -17,7 +17,7 @@ Follow the Paper: Detailed steps for setting up and operating the Heart Lander s
 Hardware Assembly: Assemble the motors, servos, and the new motor holder using the designs provided.
 Arduino Configuration: Upload the base Arduino code from the arduino_files folder to configure the motors and servos.
 Operate the System: Once the hardware and software are configured, you can begin using the Heart Lander system for epicardial interventions as per the methodology outlined in the paper.
-## Code we need
+## Code include
 Calibration Code: For the electromagnetic tracking sensor.
 
 Position Determination Algorithm: For calculating the positions of the suction bases.
