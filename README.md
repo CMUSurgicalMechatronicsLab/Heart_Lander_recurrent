@@ -18,11 +18,11 @@ Hardware Assembly: Assemble the motors, servos, and the new motor holder using t
 Arduino Configuration: Upload the base Arduino code from the arduino_files folder to configure the motors and servos.
 Operate the System: Once the hardware and software are configured, you can begin using the Heart Lander system for epicardial interventions as per the methodology outlined in the paper.
 ## Code include
-Calibration Code: For the electromagnetic tracking sensor.
+Calibration: For the electromagnetic tracking sensor.
 
-Position Determination Algorithm: For calculating the positions of the suction bases.
+Position Determination: For calculating the positions of the suction bases.
 
-Registration Software: For aligning the heart model with the robot's position.
+Registration: For aligning the heart model with the robot's position.
 
 Control Interface: To manage the actuators, load cells, and integrate real-time feedback.
 
