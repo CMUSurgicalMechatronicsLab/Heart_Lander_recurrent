@@ -30,6 +30,7 @@ Data Acquisition and Logging: For capturing and storing experimental data during
 
 ## How to connect
 Follow the instructions in the figure. Each motor needs to be connected to an ESP32. One motor has already been replaced, and the other two will need to be replaced later.
+For how to connect board with motor and how to run basic control function, please follow this link as reference:https://www.waveshare.com/servo-driver-with-esp32.htm
 
 ## Contact
 ywang779@jh.edu
