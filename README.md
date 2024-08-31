@@ -18,15 +18,16 @@ Hardware Assembly: Assemble the motors, servos, and the new motor holder using t
 Arduino Configuration: Upload the base Arduino code from the arduino_files folder to configure the motors and servos.
 Operate the System: Once the hardware and software are configured, you can begin using the Heart Lander system for epicardial interventions as per the methodology outlined in the paper.
 ## Code include
-Calibration: For the electromagnetic tracking sensor.
-
-Position Determination: For calculating the positions of the suction bases.
-
-Registration: For aligning the heart model with the robot's position.
-
-Control Interface: To manage the actuators, load cells, and integrate real-time feedback.
-
-Data Acquisition and Logging: For capturing and storing experimental data during tests.
+- Software:  Calibration and Registration are standalone procedures and the other 3 modules are included in the main loop.
+    - Calibration: I implemented 2 versions for calibrating the EM tracker, calibration_setzero.py is for manually set zero at the beginning and calibration_relative.py directly calculate the relative position.
+    - Registration: I implemented compute_registration.py to perform 3D point cloud registration. The approach and methods used in this implementation were inspired by concepts borrowed from Aman.
+    - Tracking: Cerberus_EM_tracker_ST3215.py  is designed for the process of tracking the position of the injector head through EM tracker and motor actuation.
+    - Main Loop: main contains the main loop (including initialization of the devices, calibration, motor control, tracking and recording.
+    - Utility Library: The utility functions and libraries are all included in the utils directory.
+    - Unit Test: Unit test of motor control and load cell (check the tension in the cable) are implemented in the unit_test
+- ESP32 control board:
+    - Connect motor to the board: The detailed steps to assemble the motor, the cable, and the ESP32 board, and connect them to the PC, are documented in the ReadME.md of the repo.
+    - Control: ESP32_Firmware.ino includes a servo control system using a PID controller that adjusts the servo's position based on input from a potentiometer. The system also includes a serial interface for setting and retrieving the servo's position, with commands for enabling and disabling the system.
 
 ## How to connect
 Follow the instructions in the figure 
