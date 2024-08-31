@@ -29,7 +29,10 @@ Control Interface: To manage the actuators, load cells, and integrate real-time 
 Data Acquisition and Logging: For capturing and storing experimental data during tests.
 
 ## How to connect
-Follow the instructions in the figure. Each motor needs to be connected to an ESP32. One motor has already been replaced, and the other two will need to be replaced later.
+Follow the instructions in the figure 
+![setup](./Arduino-base_test/figs/CircuitConnectionExample.jpg)
+
+Each motor needs to be connected to an ESP32. Motor 1 has already been replaced. Motor 2 and 3 need to be changed and  connected in the same way in the future.
 For how to connect board with motor and how to run basic control function, please follow this link as reference:https://www.waveshare.com/servo-driver-with-esp32.htm
 
 ## Contact
