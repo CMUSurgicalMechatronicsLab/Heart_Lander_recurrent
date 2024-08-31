@@ -27,5 +27,9 @@ Registration: For aligning the heart model with the robot's position.
 Control Interface: To manage the actuators, load cells, and integrate real-time feedback.
 
 Data Acquisition and Logging: For capturing and storing experimental data during tests.
+
+## How to connect
+Follow the instructions in the figure. Each motor needs to be connected to an ESP32. One motor has already been replaced, and the other two will need to be replaced later.
+
 ## Contact
 ywang779@jh.edu
