@@ -35,5 +35,10 @@ Follow the instructions in the figure
 Each motor needs to be connected to an ESP32. Motor 1 has already been replaced. Motor 2 and 3 need to be changed and  connected in the same way in the future.
 For how to connect board with motor and how to run basic control function, please follow this link as reference:https://www.waveshare.com/servo-driver-with-esp32.htm
 
+## Accessory
+The remaining accessories and new motors/ESP boards are all included in this box.
+
+![box](./Arduino-base_test/figs/Box.jpg)
+
 ## Contact
 ywang779@jh.edu
